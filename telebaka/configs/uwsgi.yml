@@ -1,0 +1,7 @@
+uwsgi:
+    socket: /tmp/telebaka.sock
+    module: telebaka.wsgi:application
+    master: true
+    processes: 2
+    enable-threads: true
+    hook-post-app: exec:python manage.py set_webhooks
