@@ -2,6 +2,8 @@ uwsgi:
     socket: /tmp/telebaka.sock
     module: telebaka.wsgi:application
     master: true
-    processes: 2
+    processes: 4
     enable-threads: true
-    hook-post-app: exec:python manage.py set_webhooks
+    venv: /srv/apps/telebaka/venv
+    chdir: /srv/apps/telebaka
+    hook-post-app: exec:/srv/apps/telebaka/venv/bin/python manage.py set_webhooks
