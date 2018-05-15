@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/telebaka.iml" filepath="$PROJECT_DIR$/.idea/telebaka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/voicebitch/.idea/voicebitch.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/voicebitch/.idea/voicebitch.iml" />
     </modules>
   </component>
 </project>

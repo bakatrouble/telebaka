@@ -1,11 +1,5 @@
-import logging
-
 from telegram import Bot, Update
 from telegram.ext import Dispatcher, MessageHandler, Filters
-
-
-logging.basicConfig(level=logging.DEBUG,
-                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 
 def message(bot: Bot, update: Update):
