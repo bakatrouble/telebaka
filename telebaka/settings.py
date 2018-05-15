@@ -5,12 +5,16 @@ from .utils import get_plugins
 
 root = environ.Path(__file__) - 2
 env = environ.Env()
-environ.Env.read_env()
+
+env_file = str(root.path('.env'))
+if os.path.exists(env_file):
+    print('Loading : {}'.format(env_file))
+    env.read_env(env_file)
 
 DEBUG = env.bool('DEBUG', False)
 
-ALLOWED_HOSTS = env.list('ALLOWED_HOSTS', [])  # ['127.0.0.1', '0.0.0.0', 'home.bakatrouble.pw', '1721ac16.ngrok.io']
-SECRET_KEY = env.str('SECRET_KEY')
+ALLOWED_HOSTS = env.list('DJANGO_ALLOWED_HOSTS', default=[])
+SECRET_KEY = env.str('DJANGO_SECRET_KEY')
 
 INSTALLED_APPS = [
     'django.contrib.admin',
