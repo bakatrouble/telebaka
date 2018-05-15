@@ -81,4 +81,4 @@ CELERY_RESULT_BACKEND = 'django-db'
 CELERY_BROKER_URL = 'redis://'
 CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
 
-WEBHOOK_DOMAIN = env.url('WEBHOOK_DOMAIN', 'home.bakatrouble.pw')
+WEBHOOK_DOMAIN = env.url('WEBHOOK_DOMAIN', 'home.bakatrouble.pw').geturl()
