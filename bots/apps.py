@@ -8,4 +8,5 @@ class BotsConfig(AppConfig):
     def ready(self):
         autodiscover_modules('bot')
         autodiscover_modules('signals')
+        autodiscover_modules('preferences')
         print('App initialization finished')
