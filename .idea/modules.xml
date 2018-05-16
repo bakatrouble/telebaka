@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/core/.idea/core.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/core/.idea/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/dravatar/.idea/dravatar.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/dravatar/.idea/dravatar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/lprutils/.idea/lprutils.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/lprutils/.idea/lprutils.iml" />
       <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/robot/.idea/robot.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/robot/.idea/robot.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/telebaka.iml" filepath="$PROJECT_DIR$/.idea/telebaka.iml" />
       <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/voicebitch/.idea/voicebitch.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/voicebitch/.idea/voicebitch.iml" />

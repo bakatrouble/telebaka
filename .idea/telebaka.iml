@@ -18,6 +18,9 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="voicebitch" />
     <orderEntry type="module" module-name="robot" />
+    <orderEntry type="module" module-name="lprutils" />
+    <orderEntry type="module" module-name="dravatar" />
+    <orderEntry type="module" module-name="core" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
