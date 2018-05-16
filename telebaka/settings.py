@@ -1,7 +1,7 @@
 import os
 import environ
 
-from .utils import get_plugins
+from bots.utils import get_plugins
 
 root = environ.Path(__file__) - 2
 env = environ.Env()
