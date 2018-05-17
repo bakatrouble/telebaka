@@ -27,6 +27,7 @@ INSTALLED_APPS = [
     'django_celery_results',
     'django_celery_beat',
     'dynamic_preferences',
+    'django_extensions',
 ] + list(get_plugins().keys()) + [
     'bots.apps.BotsConfig',
 ]
