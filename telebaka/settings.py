@@ -27,9 +27,9 @@ INSTALLED_APPS = [
     'django_celery_results',
     'django_celery_beat',
     'dynamic_preferences',
-
+] + list(get_plugins().keys()) + [
     'bots.apps.BotsConfig',
-] + list(get_plugins().keys())
+]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

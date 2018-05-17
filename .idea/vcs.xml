@@ -2,7 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../telebaka_plugins/gif_downloader" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../telebaka_plugins/core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../telebaka_plugins/lprutils" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../telebaka_plugins/robot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../telebaka_plugins/stickers" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../telebaka_plugins/voicebitch" vcs="Git" />
   </component>
 </project>
