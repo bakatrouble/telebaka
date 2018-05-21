@@ -8,6 +8,7 @@ django-celery-beat==1.1.1
 django-celery-results==1.0.1
 django-dynamic-preferences==1.5.1
 django-environ==0.4.4
+django-extensions==2.0.7
 django-jsonview==1.1.0
 future==0.16.0
 idna==2.6
@@ -19,10 +20,15 @@ Pillow==5.1.0
 psycopg2-binary==2.7.4
 python-telegram-bot==10.1.0
 pytz==2018.4
+raven==6.8.0
 redis==2.10.6
 requests==2.18.4
 six==1.11.0
-telebaka-core
+telebaka-dravatar==0.1.1
+-e git+git@bakatrouble.pw:telebaka/telebaka_lprutils.git@0c01e74c0b7a530b77ff8b7420afe74ead80b336#egg=telebaka_lprutils
+-e git+git@bakatrouble.pw:telebaka/telebaka_robot.git@7185dc10a41c9edaf58d2994cadb2b31822ec7d7#egg=telebaka_robot
+-e git+git@bakatrouble.pw:telebaka/telebaka_voicebitch.git@3a558b8e1e66effbc7960769632c97458b253b11#egg=telebaka_voicebitch
+telebakacore==0.1.2
 tendo==0.2.12
 urllib3==1.22
 uuid==1.30
