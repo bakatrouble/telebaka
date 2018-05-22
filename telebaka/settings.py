@@ -128,7 +128,7 @@ LOGGING = {
             'propagate': False,
         },
         'telegram.ext.dispatcher': {
-            'handlers': ['console', 'sentry'],
+            'handlers': ['console'] if DEBUG else ['console', 'sentry'],
             'level': 'WARNING',
             'propagate': False,
         },
