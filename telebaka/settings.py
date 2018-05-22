@@ -85,4 +85,4 @@ CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
 
 WEBHOOK_DOMAIN = env.url('WEBHOOK_DOMAIN', 'home.bakatrouble.pw').geturl()
 
-SENTRY_DSN = env.url('SENTRY_DSN', None).geturl()
+SENTRY_DSN = env.str('SENTRY_DSN', None)
