@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     'django_celery_beat',
     'dynamic_preferences',
     'django_extensions',
+    'raven.contrib.django.raven_compat',
 ] + list(get_plugins().keys()) + [
     'bots.apps.BotsConfig',
 ]
@@ -85,4 +86,51 @@ CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
 
 WEBHOOK_DOMAIN = env.url('WEBHOOK_DOMAIN', 'home.bakatrouble.pw').geturl()
 
-SENTRY_DSN = env.str('SENTRY_DSN', None)
+RAVEN_CONFIG = {
+    'dsn': env.str('SENTRY_DSN', None),
+}
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': True,
+    'root': {
+        'level': 'WARNING',
+        'handlers': ['sentry'],
+    },
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+        },
+        'sentry': {
+            'class': 'raven.contrib.django.raven_compat.handlers.SentryHandler',
+            'level': 'WARNING',
+        }
+    },
+    'loggers': {
+        'django.db.backends': {
+            'level': 'ERROR',
+            'handlers': ['console'],
+            'propagate': False,
+        },
+        'django': {
+            'handlers': ['console'],
+            'level': os.getenv('DJANGO_LOG_LEVEL', 'INFO'),
+            'propagate': False,
+        },
+        'raven': {
+            'level': 'DEBUG',
+            'handlers': ['console'],
+            'propagate': False,
+        },
+        'sentry.errors': {
+            'level': 'DEBUG',
+            'handlers': ['console'],
+            'propagate': False,
+        },
+        'telegram.ext.dispatcher': {
+            'handlers': ['console', 'sentry'],
+            'level': 'WARNING',
+            'propagate': False,
+        },
+    },
+}
