@@ -4,6 +4,7 @@ celery==4.1.0
 certifi==2018.4.16
 chardet==3.0.4
 Django==2.0.5
+django-admin-sortable2==0.6.19
 django-celery-beat==1.1.1
 django-celery-results==1.0.1
 django-dynamic-preferences==1.5.1
@@ -24,10 +25,6 @@ raven==6.8.0
 redis==2.10.6
 requests==2.18.4
 six==1.11.0
-telebaka-dravatar==0.1.1
--e git+git@bakatrouble.pw:telebaka/telebaka_lprutils.git@0c01e74c0b7a530b77ff8b7420afe74ead80b336#egg=telebaka_lprutils
--e git+git@bakatrouble.pw:telebaka/telebaka_robot.git@7185dc10a41c9edaf58d2994cadb2b31822ec7d7#egg=telebaka_robot
--e git+git@bakatrouble.pw:telebaka/telebaka_voicebitch.git@3a558b8e1e66effbc7960769632c97458b253b11#egg=telebaka_voicebitch
 telebakacore
 tendo==0.2.12
 urllib3==1.22

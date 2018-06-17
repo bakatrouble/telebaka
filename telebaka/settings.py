@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     'django_celery_beat',
     'dynamic_preferences',
     'django_extensions',
+    'adminsortable2',
     'raven.contrib.django.raven_compat',
 ] + list(get_plugins().keys()) + [
     'bots.apps.BotsConfig',
@@ -129,7 +130,7 @@ LOGGING = {
         },
         'telegram.ext.dispatcher': {
             'handlers': ['console'] if DEBUG else ['console', 'sentry'],
-            'level': 'WARNING',
+            'level': 'ERROR',
             'propagate': False,
         },
     },
