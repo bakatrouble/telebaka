@@ -3,10 +3,12 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../telebaka_plugins/core" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../telebaka_plugins/lprmerch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../telebaka_plugins/inspector" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../telebaka_plugins/lprmerch_poll" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../telebaka_plugins/lprutils" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../telebaka_plugins/robot" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../telebaka_plugins/stickers" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../telebaka_plugins/toxic" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../telebaka_plugins/voicebitch" vcs="Git" />
   </component>
 </project>
