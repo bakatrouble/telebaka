@@ -24,6 +24,8 @@
     <orderEntry type="module" module-name="stickers" />
     <orderEntry type="module" module-name="inspector" />
     <orderEntry type="module" module-name="lprmerch_poll" />
+    <orderEntry type="module" module-name="cards_against_humanity" />
+    <orderEntry type="module" module-name="toxic" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />

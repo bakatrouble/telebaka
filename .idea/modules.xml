@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/cards_against_humanity/.idea/cards_against_humanity.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/cards_against_humanity/.idea/cards_against_humanity.iml" />
       <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/core/.idea/core.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/core/.idea/core.iml" />
       <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/dravatar/.idea/dravatar.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/dravatar/.idea/dravatar.iml" />
       <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/inspector/.idea/inspector.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/inspector/.idea/inspector.iml" />
@@ -10,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/robot/.idea/robot.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/robot/.idea/robot.iml" />
       <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/stickers/.idea/stickers.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/stickers/.idea/stickers.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/telebaka.iml" filepath="$PROJECT_DIR$/.idea/telebaka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/toxic/.idea/toxic.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/toxic/.idea/toxic.iml" />
       <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/voicebitch/.idea/voicebitch.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/voicebitch/.idea/voicebitch.iml" />
     </modules>
   </component>
