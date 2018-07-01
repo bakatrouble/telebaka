@@ -19,13 +19,13 @@
     <orderEntry type="module" module-name="voicebitch" />
     <orderEntry type="module" module-name="robot" />
     <orderEntry type="module" module-name="lprutils" />
-    <orderEntry type="module" module-name="dravatar" />
     <orderEntry type="module" module-name="core" />
     <orderEntry type="module" module-name="stickers" />
     <orderEntry type="module" module-name="inspector" />
     <orderEntry type="module" module-name="lprmerch_poll" />
     <orderEntry type="module" module-name="cards_against_humanity" />
     <orderEntry type="module" module-name="toxic" />
+    <orderEntry type="module" module-name="feed" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />

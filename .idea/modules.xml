@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/cards_against_humanity/.idea/cards_against_humanity.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/cards_against_humanity/.idea/cards_against_humanity.iml" />
       <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/core/.idea/core.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/core/.idea/core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/dravatar/.idea/dravatar.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/dravatar/.idea/dravatar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/feed/.idea/feed.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/feed/.idea/feed.iml" />
       <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/inspector/.idea/inspector.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/inspector/.idea/inspector.iml" />
       <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/lprmerch_poll/.idea/lprmerch_poll.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/lprmerch_poll/.idea/lprmerch_poll.iml" />
       <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/lprutils/.idea/lprutils.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/lprutils/.idea/lprutils.iml" />
