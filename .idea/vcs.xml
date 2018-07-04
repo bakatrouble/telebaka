@@ -9,6 +9,7 @@
     <mapping directory="$PROJECT_DIR$/../telebaka_plugins/lprutils" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../telebaka_plugins/robot" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../telebaka_plugins/stickers" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../telebaka_plugins/telegraph" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../telebaka_plugins/toxic" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../telebaka_plugins/voicebitch" vcs="Git" />
   </component>

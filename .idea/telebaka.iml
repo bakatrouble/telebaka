@@ -26,6 +26,7 @@
     <orderEntry type="module" module-name="cards_against_humanity" />
     <orderEntry type="module" module-name="toxic" />
     <orderEntry type="module" module-name="feed" />
+    <orderEntry type="module" module-name="telegraph" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />

@@ -1,11 +1,12 @@
-from telegram import Bot, Update
+from telegram import Bot, Update, MessageEntity
 from telegram.ext import Dispatcher, MessageHandler, Filters
 
 
 def message(bot: Bot, update: Update):
+    print(update.message.text)
     update.message.forward(update.message.chat_id)
 
 
 def setup(dispatcher):
-    dispatcher.add_handler(MessageHandler(Filters.text, message))
+    dispatcher.add_handler(MessageHandler(Filters.photo, message))
     return dispatcher

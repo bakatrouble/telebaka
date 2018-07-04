@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/robot/.idea/robot.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/robot/.idea/robot.iml" />
       <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/stickers/.idea/stickers.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/stickers/.idea/stickers.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/telebaka.iml" filepath="$PROJECT_DIR$/.idea/telebaka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/telegraph/.idea/telegraph.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/telegraph/.idea/telegraph.iml" />
       <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/toxic/.idea/toxic.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/toxic/.idea/toxic.iml" />
       <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/voicebitch/.idea/voicebitch.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/voicebitch/.idea/voicebitch.iml" />
     </modules>
