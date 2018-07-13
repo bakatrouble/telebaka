@@ -8,5 +8,5 @@ def message(bot: Bot, update: Update):
 
 
 def setup(dispatcher):
-    dispatcher.add_handler(MessageHandler(Filters.photo, message))
+    dispatcher.add_handler(MessageHandler(Filters.text, message))
     return dispatcher

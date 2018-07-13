@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../telebaka_plugins/anonymous_chat" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../telebaka_plugins/core" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../telebaka_plugins/feed" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../telebaka_plugins/inspector" vcs="Git" />

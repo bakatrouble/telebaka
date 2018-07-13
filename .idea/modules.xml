@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/anonymous_chat/.idea/anonymous_chat.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/anonymous_chat/.idea/anonymous_chat.iml" />
       <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/cards_against_humanity/.idea/cards_against_humanity.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/cards_against_humanity/.idea/cards_against_humanity.iml" />
       <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/core/.idea/core.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/core/.idea/core.iml" />
       <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/feed/.idea/feed.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/feed/.idea/feed.iml" />
