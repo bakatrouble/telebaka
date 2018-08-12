@@ -82,7 +82,7 @@ STATIC_ROOT = public_root('static')
 STATIC_URL = '/static/'
 
 CELERY_RESULT_BACKEND = 'django-db'
-CELERY_BROKER_URL = 'amqp://telebaka:telebaka@localhost:5672/telebaka'
+CELERY_BROKER_URL = 'redis://'
 CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
 
 WEBHOOK_DOMAIN = env.url('WEBHOOK_DOMAIN', 'home.bakatrouble.pw').geturl()
