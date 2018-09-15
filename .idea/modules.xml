@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/anonymous_chat/.idea/anonymous_chat.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/anonymous_chat/.idea/anonymous_chat.iml" />
       <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/cards_against_humanity/.idea/cards_against_humanity.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/cards_against_humanity/.idea/cards_against_humanity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/channel_helper/.idea/channel_helper.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/channel_helper/.idea/channel_helper.iml" />
       <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/core/.idea/core.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/core/.idea/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/faq/.idea/faq.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/faq/.idea/faq.iml" />
       <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/feed/.idea/feed.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/feed/.idea/feed.iml" />
       <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/inspector/.idea/inspector.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/inspector/.idea/inspector.iml" />
       <module fileurl="file://$PROJECT_DIR$/../telebaka_plugins/lprmerch_poll/.idea/lprmerch_poll.iml" filepath="$PROJECT_DIR$/../telebaka_plugins/lprmerch_poll/.idea/lprmerch_poll.iml" />

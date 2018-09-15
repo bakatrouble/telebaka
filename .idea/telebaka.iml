@@ -14,7 +14,7 @@
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.7 (telebaka)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="voicebitch" />
     <orderEntry type="module" module-name="robot" />
@@ -27,6 +27,8 @@
     <orderEntry type="module" module-name="toxic" />
     <orderEntry type="module" module-name="feed" />
     <orderEntry type="module" module-name="anonymous_chat" />
+    <orderEntry type="module" module-name="faq" />
+    <orderEntry type="module" module-name="channel_helper" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
