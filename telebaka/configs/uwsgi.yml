@@ -2,7 +2,7 @@ uwsgi:
     socket: /tmp/telebaka.sock
     module: telebaka.wsgi:application
     master: true
-    processes: 4
+    processes: 10
     enable-threads: true
     venv: /srv/apps/telebaka/venv
     chdir: /srv/apps/telebaka
