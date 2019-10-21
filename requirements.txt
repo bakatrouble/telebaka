@@ -27,7 +27,7 @@ requests==2.18.4
 six==1.11.0
 telebakacore
 tendo==0.2.12
-urllib3==1.22
+urllib3==1.24.2
 uuid==1.30
 uWSGI==2.0.17
 vine==1.1.4
