@@ -17,7 +17,7 @@ kombu==4.2.1
 lazy-object-proxy==1.3.1
 pbr==4.0.2
 persisting-theory==0.2.1
-Pillow==5.1.0
+Pillow==8.1.1
 psycopg2-binary==2.7.4
 python-telegram-bot==10.1.0
 pytz==2018.4
